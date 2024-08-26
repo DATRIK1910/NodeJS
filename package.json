@@ -1,0 +1,36 @@
+{
+  "name": "notejs",
+  "version": "1.0.0",
+  "description": "backend nodejs by datrik",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js",
+    "debug": "nodemon --exec babel-node src/server.js -- --inspect-brk"
+  },
+  "keywords": [
+    "fullstack",
+    "nodejs",
+    "express",
+    "datrik"
+  ],
+  "author": "Datrik",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "nodemon": "^3.1.3",
+    "sequelize-cli": "^6.2.0"
+  }
+}
